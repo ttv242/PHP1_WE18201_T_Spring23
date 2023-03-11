@@ -1,0 +1,152 @@
+/* Responsive */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Desktop */
+@media only screen and (min-width:1024px) {
+    
+    .sidebar {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+}
+
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+    .sidebar * {
+        display: block;
+    }
+
+    a {
+        font-size: 2vw;
+    }
+
+    .navbar * {
+        display: none;
+    }
+}
+
+/* Reset */
+*, html {
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.m_a {
+  margin: auto;
+}
+
+.ta_c {
+  text-align: center;
+}
+
+.d_f {
+  display: flex;
+}
+
+.d_n {
+  display: none;
+
+}
+.d_b {
+  display: block;
+}
+
+.fw_w {
+  flex-wrap: wrap;
+}
+
+.fw_nw {
+  flex-wrap: nowrap;
+}
+
+.jc_c {
+  justify-content: center;
+}
+
+.jc_sb {
+  justify-content: space-between;
+}
+
+.jc_s {
+  justify-content: start;
+}
+
+.form__profile {
+  background-color: blue;
+  -webkit-box-shadow:0px 0px 50px 10px #200e0e ;
+  -moz-box-shadow:0px 0px 50px 10px #200e0e ;
+  box-shadow:0px 0px 50px 10px #200e0e ;
+  border-radius: .9vw;
+  padding: 1vw 0;
+  margin-top: 2vw;
+}
+
+.form__profile, a {
+  color: aliceblue;
+}
+
+.title__profile {
+  font-size: 2vw;
+}
+
+.line__bottom {
+  margin: 1vw 0 1vw 0;
+}
+
+.wrapper__profile {
+  font-size: 1.3vw;
+}
+
+.wrapper__profile p {
+  padding: .5vw 0;
+}
+
+.contact__author {
+
+}
+
+.contact__author a,
+.number__phone {
+  padding: 0 .5vw;
+}
+
+.fb:hover::after {
+  content: 'Trần Thanh Vinh';
+}
+
+.number__phone:hover::after {
+  content: '0339349829';
+}
+
+.fb:hover::after,
+.number__phone::after {
+  position: absolute;
+  margin: 1.7vw 0vw 0 0;
+  font-size: 1vw;
+  background-color: #200e0e;
+  padding: .2vw;
+  border-radius: 0 .5vw .5vw .5vw;
+  /* width: 1vw; */
+  z-index: 100;
+  color: wheat;
+}
+
+.products {
+  padding: 2vw 0;
+}

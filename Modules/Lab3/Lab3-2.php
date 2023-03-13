@@ -61,7 +61,7 @@ echo "Bài 5: Sinh viên tự tìm hiểu hàm settype, gettype, strcontains (PH
 
     echo "<br>";
     echo 'Tìm chuỗi $searchString trong chuỗi $string {'.$string."}<br>";
-    $searchString = '-';
+    $searchString = '2';
     str_contains($string, $searchString);
     if (str_contains($string, $searchString)) {
         echo "Có chuỗi cần tìm";

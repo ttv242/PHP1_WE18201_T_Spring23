@@ -28,10 +28,74 @@
         </div>
 
         <div class="products col-12 ta_c">
-            <h1>LAB</h1>
-            <div class="products__wrapper">
-                <div class="product__box col-3">
+            <h1 class="title__products">LAB</h1>
+            <div class="products__wrapper d_f jc_s fw_w">
+                <div class="product__box col-3 ta_c">
                     <h1>Lab1</h1>
+                    <p>Kết thúc bài thực hành này bạn có khả năng: Biến, Data types, Operators.</p>
+                    <ul class="list d_f jc_c">
+                        <li><a href="./Modules/Lab1/Bai1-1.php/Bai1/Bai1.php">Bài 1.1</a></li>
+                        <li><a href="./Modules/Lab1/Bai1-2.php/Bai2/Bai2.php">Bài 1.2</a></li>
+                        <li><a href="./Modules/Lab1/Bai1-1.php/Bai3/Bai3.php">Bài 1.3</a></li>
+                        <li><a href="./Modules/Lab1/Bai1-2.php/Bai1/Bai1.php">Bài 2.1</a></li>
+                        <li><a href="./Modules/Lab1/Bai1-2.php/Bai2/Bai2.php">Bài 2.2</a></li>
+                        <li><a href="./Modules/Lab1/Bai1-2.php/Bai3/Bai3.php">Bài 2.3</a></li>
+                    </ul>
+                </div>
+
+                <div class="product__box col-3 ta_c">
+                    <h1>Lab2</h1>
+                    <p>Kết thúc bài thực hành này bạn có khả năng: Mảng, Hằng, Cấu trúc điều khiển, Cấu trúc lặp, Break, continue, goto.</p>
+                    <ul class="list d_f jc_c">
+                        <li><a href="./Modules/Lab2/Lab2-1.php">Lab 2-1</a></li>
+                        <li><a href="./Modules/Lab2/Lab2-2.php">Lab 2-2</a></li>
+                    </ul>
+                </div>
+
+                <div class="product__box col-3 ta_c">
+                    <h1>Lab3</h1>
+                    <p>Kết thúc bài thực hành này bạn có khả năng: Hàm, PHP & HTML.</p>
+                    <ul class="list d_f jc_c">
+                        <li><a href="./Modules/Lab3/Lab3-1.php">Lab 3-1</a></li>
+                        <li><a href="./Modules/Lab3/Lab3-2.php">Lab 3-2</a></li>
+                    </ul>
+
+                    <div class="ui_ux">
+                        <ul class="frontend d_f jc_s c_p">
+                            Frontend
+                            <li><a href="./Modules/Lab3/Frontend/Exam.php">Exam</a></li>
+                            <li><a href="./Modules/Lab3/Frontend/Products.php">Products</a></li>
+                        </ul>
+                        <ul class="backend d_f jc_s c_p">
+                            Backend
+                            <li><a href="./Modules/Lab3/Backend/Category.php">Category</a></li>
+                            <li><a href="./Modules/Lab3/Backend/Course.php">Course</a></li>
+                            <li><a href="./Modules/Lab3/Backend/Examinee.php">Examinee</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product__box col-3 ta_c">
+                    <h1>Lab4</h1>
+                    <p>Kết thúc bài thực hành này bạn có khả năng: Hàm, PHP & HTML.</p>
+                    <ul class="list d_f jc_c">
+                        <li><a href="./Modules/Lab3/Lab3-1.php">Lab 3-1</a></li>
+                        <li><a href="./Modules/Lab3/Lab3-2.php">Lab 3-2</a></li>
+                    </ul>
+
+                    <div class="ui_ux">
+                        <ul class="frontend d_f jc_s c_p">
+                            Frontend
+                            <li><a href="./Modules/Lab3/Frontend/Exam.php">Exam</a></li>
+                            <li><a href="./Modules/Lab3/Frontend/Products.php">Products</a></li>
+                        </ul>
+                        <ul class="backend d_f jc_s c_p">
+                            Backend
+                            <li><a href="./Modules/Lab3/Backend/Category.php">Category</a></li>
+                            <li><a href="./Modules/Lab3/Backend/Course.php">Course</a></li>
+                            <li><a href="./Modules/Lab3/Backend/Examinee.php">Examinee</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
